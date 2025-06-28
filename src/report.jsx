@@ -62,7 +62,7 @@ export default class report extends Component {
         <Navbar bg="primary" variant="dark">
           <Container>
             <Navbar.Brand href="#">ค้นหาเลขไปรษณีย์</Navbar.Brand>
-            <div>{/* Name */}</div>
+            <div>{"67130052 ชาคร แป้นสุข"}</div>
           </Container>
         </Navbar>
         <Container>
@@ -86,7 +86,7 @@ export default class report extends Component {
                     onChange={this.filter}
                     onKeyUp={this.filter}
                     maxLength="5"
-                  />
+                  />f
                 </Form.Group>
               </Col>
             </Row>
@@ -99,7 +99,7 @@ export default class report extends Component {
                     <tr>
                       <th>#</th>
                       <th>รหัสตำบล</th>
-                      <th>ตำบล</th>
+                      <th>ตำบล</th>e
                     </tr>
                   </thead>
                   <tbody>
